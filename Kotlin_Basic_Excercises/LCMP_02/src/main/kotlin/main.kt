@@ -2,7 +2,7 @@ fun main(args: Array<String>) {
     val numbers = arrayOf(1,2,3,4,5)
     val rotations = 2
 
-    rotateIntArray(numbers, rotations)
+    print("Array rotated: "); rotateIntArray(numbers, rotations)
 }
 
 fun rotateIntArray(array: Array<Int>, rotations: Int) {
@@ -10,7 +10,7 @@ fun rotateIntArray(array: Array<Int>, rotations: Int) {
         rotateByOne(array)
 
     array.forEach {
-        println(it)
+        print("$it ")
     }
 }
 

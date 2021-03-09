@@ -1,6 +1,11 @@
 fun main() {
-    for(i in 0..10)
-        println(fibonacci(i, 0, 1))
+    printFibonacci(10)
+}
+
+fun printFibonacci(n: Int) {
+    print("Fibonacci numbers: ")
+    for(i in 0..n)
+        print("${fibonacci(i, 0, 1)} ")
 }
 
 fun fibonacci(position: Int, prev: Int, current: Int): Int {

@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     val toPigLatin = toPigLatin(phrase)
     val toEnglish = toEnglish(toPigLatin)
 
-    println("$toEnglish -> $toPigLatin")
+    println("Translation: $toEnglish -> $toPigLatin")
 }
 
 fun toPigLatin(phrase: String): String {
