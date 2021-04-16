@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">LinearLayout Form</string>
+    <string name="name">Name</string>
+    <string name="lastname">Lastname</string>
+    <string name="contact_form">Contact form</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="area">Area</string>
+    <string name="address">Address</string>
+    <string name="settings_form">Settings Form</string>
+    <string name="toggle">Toggle</string>
+    <string name="cellular_data">Cellular data</string>
+    <string name="single_check">Single check</string>
+    <string name="allow_notifications">Allow notifications</string>
+    <string name="turn_off_notifications">Turn off notifications</string>
+    <string name="multiple_checks">Multiple checks</string>
+    <string name="microphone_access">Microphone access</string>
+    <string name="gallery_access">Gallery access</string>
+    <string name="location_access">Location access</string>
+    <string name="buttons">Buttons</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
 </resources>
